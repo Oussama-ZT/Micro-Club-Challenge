@@ -1,0 +1,235 @@
+<div class="hero">
+    <div class="open-sans-montserrat">
+      <div class="it-s-a-big-world-out-there-go-explore">
+        <span>
+          <span class="it-s-a-big-world-out-there-go-explore-span">
+            Unlock Your Learning Potential with
+          </span>
+          <span class="it-s-a-big-world-out-there-go-explore-span2">
+            Micro Club
+          </span>
+        </span>
+      </div>
+      <div
+        class="embrace-life-s-vastness-venture-forth-and-discover-the-wonders-waiting-beyond-the-world-beckons-seize-its-grand-offerings-now"
+      >
+        Embrace life&#039;s vastness, venture forth, and discover the wonders
+        waiting beyond. The world beckons; seize its grand offerings now!
+      </div>
+    </div>
+    <div class="frame-2">
+      <div class="check-badge">
+        <svg
+          class="material-symbols-check-small-rounded"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.77649 15.2146L9.13004 15.5681L9.4836 15.2146L17.95 6.74819C18.1101 6.58804 18.3134 6.50002 18.6009 6.50002C18.8884 6.50002 19.0917 6.58804 19.2518 6.74819L19.6004 6.39966L19.2518 6.74819C19.412 6.90834 19.5 7.11161 19.5 7.39912C19.5 7.68663 19.412 7.8899 19.2518 8.05005L19.6054 8.4036L19.2518 8.05005L9.78098 17.5209C9.58143 17.7204 9.37143 17.8049 9.13004 17.8049C8.88866 17.8049 8.67865 17.7204 8.47911 17.5209L4.74817 13.79L4.40047 14.1377L4.74817 13.79C4.58802 13.6298 4.5 13.4265 4.5 13.139C4.5 12.8515 4.58802 12.6482 4.74817 12.4881C4.90832 12.3279 5.11159 12.2399 5.3991 12.2399C5.68662 12.2399 5.88989 12.3279 6.05003 12.4881L8.77649 15.2146Z"
+            fill="#252B42"
+            stroke="#252B42"
+          />
+        </svg>
+      </div>
+      <div class="find-an-agent">Find an Agent</div>
+    </div>
+    <div class="filled-medium-filled-button">
+  <div class="button">Join Class</div>
+    </div>
+    <div class="filled-medium-filled-button2">
+      <div class="button2">Get Started</div>
+    </div>
+    <div class="ellipse-24"></div>
+    <div class="mockup-charachter">
+      <img class="rectangle-44" src="rectangle-440.png" />
+    </div>
+  </div>
+
+
+
+
+
+.hero,
+.hero * {
+  box-sizing: border-box;
+}
+.hero {
+  width: 1440px;
+  height: 689px;
+  position: relative;
+  overflow: hidden;
+}
+.open-sans-montserrat {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 519px;
+  position: absolute;
+  left: 199px;
+  top: 83px;
+}
+.it-s-a-big-world-out-there-go-explore {
+  text-align: left;
+  font-family: "OpenSans-ExtraBold", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 800;
+  position: relative;
+  width: 440px;
+}
+.it-s-a-big-world-out-there-go-explore-span {
+  color: var(--text-color, #ffffff);
+  font-family: "OpenSans-ExtraBold", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 800;
+}
+.it-s-a-big-world-out-there-go-explore-span2 {
+  color: var(--secondary-color-1, #31a0fe);
+  font-family: "OpenSans-ExtraBold", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 800;
+}
+.embrace-life-s-vastness-venture-forth-and-discover-the-wonders-waiting-beyond-the-world-beckons-seize-its-grand-offerings-now {
+  color: var(--second-text-color, #ececec);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 357px;
+}
+.frame-2 {
+  border-radius: 7px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 356px;
+  top: 578px;
+  box-shadow: var(
+    --accentuatedropshadow-box-shadow,
+    0px 13px 19px 0px rgba(0, 0, 0, 0.07)
+  );
+  overflow: hidden;
+}
+.check-badge {
+  background: var(--text-color, #ffffff);
+  border-radius: 25px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.material-symbols-check-small-rounded {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.find-an-agent {
+  color: var(--text-color, #ffffff);
+  text-align: left;
+  font-family: var(--small-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--small-font-size, 12px);
+  line-height: var(--small-line-height, 16px);
+  font-weight: var(--small-font-weight, 400);
+  position: relative;
+}
+.filled-medium-filled-button {
+  background: var(--secondary-color-1, #31a0fe);
+  border-radius: 24px;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 199px;
+  top: 478px;
+  box-shadow: var(
+    --lightdropshadow-box-shadow,
+    0px 2px 4px 0px rgba(0, 0, 0, 0.1)
+  );
+}
+.button-4 {
+  color: var(--text-color, #ffffff);
+  text-align: left;
+  font-family: var(--btn-text-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--btn-text-font-size, 14px);
+  line-height: var(--btn-text-line-height, 28px);
+  font-weight: var(--btn-text-font-weight, 700);
+  position: relative;
+}
+.filled-medium-filled-button24 {
+  background: var(--lightbackgroundcolor, #ffffff);
+  border-radius: 24px;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 378px;
+  top: 478px;
+  box-shadow: var(
+    --lightdropshadow-box-shadow,
+    0px 2px 4px 0px rgba(0, 0, 0, 0.1)
+  );
+}
+.button24 {
+  color: var(--textcolor, #252b42);
+  text-align: left;
+  font-family: var(--btn-text-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--btn-text-font-size, 14px);
+  line-height: var(--btn-text-line-height, 28px);
+  font-weight: var(--btn-text-font-weight, 700);
+  position: relative;
+}
+.ellipse-24 {
+  background: var(--secondary-color-1, #31a0fe);
+  border-radius: 50%;
+  width: 421px;
+  height: 421px;
+  position: absolute;
+  left: 797px;
+  top: 144px;
+}
+.mockup-charachter {
+  width: 593px;
+  height: 624px;
+  position: absolute;
+  left: 697px;
+  top: -59px;
+}
+.rectangle-44 {
+  border-radius: 243px;
+  position: absolute;
+  right: 7.7%;
+  left: 9.05%;
+  width: 83.25%;
+  bottom: -0.05%;
+  top: 14.21%;
+  height: 85.84%;
+}

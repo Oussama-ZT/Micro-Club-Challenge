@@ -1,0 +1,118 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primarycolor: #31a0fe;
+    --primarycolorhovered: #1a92d6;
+    --primarycolorpressed: #1176ae;
+    --primarycolortonal: #d4eaf6;
+    --primarycolortonalhovered: #cee6f3;
+    --primarycolortonalpressed: #c5e2f2;
+    --secondarycolor-1: #23856d;
+    --secondarycolor-1-hovered: #1c745e;
+    --secondarycolor-1-pressed: #165949;
+    --secondarycolortonal-1: #d6f1cc;
+    --secondarycolortonal-1-hovered: #cbeac1;
+    --secondarycolortonal-1-pressed: #c4e4b9;
+    --secondarycolor-2: #ec5c2e;
+    --secondarycolor-2-hovered: #d75228;
+    --secondarycolor-2-pressed: #b94824;
+    --secondarycolortonal-2: #f3dcd5;
+    --secondarycolortonal-2-hovered: #efd5cc;
+    --secondarycolortonal-2-pressed: #f0d1c6;
+    --gradientcolor-1: linear-gradient(
+      90deg,
+      rgba(37, 189, 254, 1) 0%,
+      rgba(36, 40, 163, 1) 100%
+    );
+    --gradientcolor-2: linear-gradient(
+      90deg,
+      rgba(28, 244, 16, 1) 0%,
+      rgba(193, 212, 110, 1) 100%
+    );
+    --gradientcolor-3: linear-gradient(
+      90deg,
+      rgba(138, 90, 226, 1) 0%,
+      rgba(194, 75, 231, 1) 100%
+    );
+    --gradientcolor-4: linear-gradient(
+      90deg,
+      rgba(209, 10, 80, 1) 0%,
+      rgba(64, 37, 121, 1) 100%
+    );
+    --successcolor: #2dc071;
+    --infoscolor: #1fc4f8;
+    --warningcolor: #e77c40;
+    --dangercolor: #e74040;
+    --textcolor: #252b42;
+    --secondtextcolor: #737373;
+    --mutedcolor: #bdbdbd;
+    --lightgray-1: #e3e3e3;
+    --lightgray-2: #ececec;
+    --lighttextcolor: #ffffff;
+    --darkbackgroundcolor: #252b42;
+    --lightbackgroundcolor: #ffffff;
+  
+    /* Fonts */
+    --h-1-font-family: OpenSans-ExtraBold, sans-serif;
+    --h-1-font-size: 48px;
+    --h-1-line-height: 60px;
+    --h-1-font-weight: 800;
+    --h-1-font-style: normal;
+    --h-2-font-family: OpenSans-Bold, sans-serif;
+    --h-2-font-size: 40px;
+    --h-2-line-height: 57px;
+    --h-2-font-weight: 700;
+    --h-2-font-style: normal;
+    --h-3-font-family: OpenSans-Bold, sans-serif;
+    --h-3-font-size: 24px;
+    --h-3-line-height: 32px;
+    --h-3-font-weight: 700;
+    --h-3-font-style: normal;
+    --h-4-font-family: OpenSans-Regular, sans-serif;
+    --h-4-font-size: 20px;
+    --h-4-line-height: 30px;
+    --h-4-font-weight: 400;
+    --h-4-font-style: normal;
+    --h-5-font-family: Montserrat-Bold, sans-serif;
+    --h-5-font-size: 16px;
+    --h-5-line-height: 24px;
+    --h-5-font-weight: 700;
+    --h-5-font-style: normal;
+    --h-6-font-family: Montserrat-SemiBold, sans-serif;
+    --h-6-font-size: 14px;
+    --h-6-line-height: 24px;
+    --h-6-font-weight: 600;
+    --h-6-font-style: normal;
+    --btn-text-font-family: Montserrat-Bold, sans-serif;
+    --btn-text-font-size: 14px;
+    --btn-text-line-height: 28px;
+    --btn-text-font-weight: 700;
+    --btn-text-font-style: normal;
+    --paragraph-font-family: Montserrat-Regular, sans-serif;
+    --paragraph-font-size: 14px;
+    --paragraph-line-height: 20px;
+    --paragraph-font-weight: 400;
+    --paragraph-font-style: normal;
+    --list-font-family: Montserrat-Regular, sans-serif;
+    --list-font-size: 20px;
+    --list-line-height: 30px;
+    --list-font-weight: 400;
+    --list-font-style: normal;
+    --link-font-family: Montserrat-SemiBold, sans-serif;
+    --link-font-size: 14px;
+    --link-line-height: 24px;
+    --link-font-weight: 600;
+    --link-font-style: normal;
+    --small-font-family: Montserrat-Regular, sans-serif;
+    --small-font-size: 12px;
+    --small-line-height: 16px;
+    --small-font-weight: 400;
+    --small-font-style: normal;
+  
+    /* Effects */
+    --accentuatedropshadow-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    --dramaticdropshadow-box-shadow: -31px -22px 19px 0px rgba(0, 0, 0, 0.3);
+    --lightdropshadow-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    --textdropshadow-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.24);
+  }
+  
